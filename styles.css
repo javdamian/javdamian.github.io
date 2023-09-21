@@ -73,3 +73,46 @@
         /* white-space: nowrap; */
     }
 }
+
+.site-content {
+    /* display: flex; */
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.check-mark {
+    position: absolute;
+    left: 8px;
+    top: 11px;
+}
+
+.step-ellipse {
+    position: relative;
+    max-width: 40px;
+}
+
+.step-text {
+    color: #000000;
+    font-family: "Manrope-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    /* white-space: nowrap; */
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 40px; 
+}
+
+.product-description-container {
+    padding: 40px;
+}
