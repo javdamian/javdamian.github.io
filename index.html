@@ -7,13 +7,15 @@
     <title>Título del documento</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="public/js/OwlCarousel2-2.3.4/owl.carousel.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>    
 </head>
 
 <body>
     <header>
-        <div class="header-top">
+        <div id="header-top" class="header-top">
             <!-- Top section of the header -->
             <div class="header-top-section-container">
                 <div class="header-top-section">
@@ -34,7 +36,25 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
+        <div id="header-slider" class="owl-carousel header-top">
+            <div class="header-top-section">
+                <img src="public/images/fluent_checkmark-starburst-20-regular.png" alt="Image 1">
+                <span class="satisfaction-guarantee">30-DAY SATISFACTION GUARANTEE</span>
+            </div>
+            <div class="header-top-section">
+                <img src="public/images/ph_truck-light.png" alt="Image 2">
+                <span class="satisfaction-guarantee">Free delivery on orders over $40.00</span>
+            </div>
+            <div class="header-top-section">
+                <img src="public/images/mdi_cards-heart-outline.png" alt="Image 3">
+                <span class="satisfaction-guarantee">50.000+ HAPPY CUSTOMERS</span>
+            </div>
+            <div class="header-top-section">
+                <img src="public/images/fluent_arrow-sync-checkmark-20-regular.png" alt="Image 4">
+                <span class="satisfaction-guarantee">50.000+ HAPPY CUSTOMERS</span>
+            </div>
+        </div>        
+        <div id="header-bottom" class="header-bottom">
             <!-- Bottom section of the header -->
             <div class="header-bottom-section-container">
                 <a href="#" class="logo"><img
@@ -249,9 +269,10 @@
         <!-- Footer content goes here -->
     </footer>
     <!-- Scripts o enlaces adicionales -->
-    <script src="public/js/script.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="public/js/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="public/js/script.js"></script>
 
 </body>
 

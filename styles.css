@@ -116,3 +116,34 @@
 .product-description-container {
     padding: 40px;
 }
+
+header .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    /* Estilos para el slider en dispositivos móviles */
+    #header-slider {
+      /* Agrega aquí tus estilos específicos para el slider en dispositivos móviles */
+    }
+  
+    /* Ocultar el contenedor #header-top en dispositivos móviles */
+    #header-top {
+      display: none;
+    }
+  }
+  
+  /* Estilos para escritorio */
+  @media (min-width: 768px) {
+    /* Ocultar el slider en escritorio */
+    #header-slider {
+      display: none;
+    }
+  
+    /* Estilos para el contenedor #header-top en escritorio */
+    #header-top {
+      /* Agrega aquí tus estilos específicos para el contenedor en escritorio */
+    }
+  }
