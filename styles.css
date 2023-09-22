@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     flex-direction: row;
     display: flex;
-    gap: 10%;
+    gap: 2%;
     justify-content: space-between;
 }
 
@@ -32,7 +32,8 @@ body {
     display: flex;
     width: 100%;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    width: max-content;
 }
 
 .header-top-section span {
@@ -139,6 +140,15 @@ header .owl-carousel .owl-item img {
     background: #FFF;
     padding: 24px;
     margin-top: 24px;
+}
+
+.product-review p {
+    color: #4D5254;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
 }
 
 .product-description-container {
@@ -313,10 +323,11 @@ header .owl-carousel .owl-item img {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110%; /* 22px */
-    text-transform: capitalize; 
+    line-height: 110%;
+    /* 22px */
+    text-transform: capitalize;
     top: 10px;
-  left: 15px;
+    left: 15px;
 }
 
 .profile .verify {
@@ -414,7 +425,8 @@ header .owl-carousel .owl-item img {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
     margin-top: 9px;
 }
 
