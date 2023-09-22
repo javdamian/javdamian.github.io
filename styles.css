@@ -300,6 +300,25 @@ header .owl-carousel .owl-item img {
     gap: 10px;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+.white {
+    color: #fff
+}
+
+.step-number {
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 22px */
+    text-transform: capitalize; 
+    top: 10px;
+  left: 15px;
+}
+
 .profile .verify {
 
     color: #5BB59A;
