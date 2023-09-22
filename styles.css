@@ -1,7 +1,13 @@
-body {
-    font-family: "Manrope-Regular", Helvetica;
-}
+@font-face {
+    font-family: "Manrope";
+    src: url("public/fonts/Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
+body {
+  font-family: "Manrope", sans-serif;
+}
 
 /*Header*/
 .header-top {
@@ -31,7 +37,7 @@ body {
 
 .header-top-section span {
     color: #FFF;
-    font-family: "Manrope-Medium", Helvetica;
+    /* font-family: "Manrope-Medium", Helvetica; */
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -60,7 +66,7 @@ body {
 
     p {
         color: #4d5254;
-        font-family: "Manrope-Regular", Helvetica;
+        /* font-family: "Manrope-Regular", Helvetica; */
         font-size: 24px;
         font-weight: 400;
         letter-spacing: 0;
@@ -70,7 +76,7 @@ body {
 
     h1 {
         color: #000000;
-        font-family: "Manrope-Regular", Helvetica;
+        /* font-family: "Manrope-Regular", Helvetica; */
         font-size: 48px;
         font-weight: 400;
         letter-spacing: 0;
@@ -79,6 +85,7 @@ body {
     }
 }
 
+.container,
 .site-content {
     /* display: flex; */
     max-width: 1245px;
@@ -98,7 +105,7 @@ body {
 
 .step-text {
     color: #000000;
-    font-family: "Manrope-Regular", Helvetica;
+    /* font-family: "Manrope-Regular", Helvetica; */
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0;
@@ -118,9 +125,8 @@ body {
     padding: 60px 0 40px;
 }
 
-.product-description-container {
-    padding: 40px;
-    background: #FAFAFA;
+.product-description{
+    margin-left: 25px;
 }
 
 header .owl-carousel .owl-item img {
@@ -132,14 +138,17 @@ header .owl-carousel .owl-item img {
     border-radius: 10px;
     background: #FFF;
     padding: 24px;
+    margin-top: 24px;
 }
 
 .product-description-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-
-    .product-img img {
+    margin-bottom: 61px;
+    padding: 40px 40px 38px;
+    background: #FAFAFA;
+    .product-img>img {
         width: 100%;
     }
 }
@@ -223,15 +232,127 @@ header .owl-carousel .owl-item img {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 18px */
+    line-height: 150%;
+    /* 18px */
     text-transform: capitalize;
 }
 
+.d-flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.copyright,
+.guarantee-container,
 .payment-icons {
     display: flex;
     align-items: center;
 }
 
+.guarantee-container {
+    gap: 16px;
+}
+
+.guarantee-container p {
+    font-weight: 400;
+    color: #4d5254;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.footer {
+    background-color: #252f3d;
+}
+
+.footer .text-wrapper {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.footer .line {
+    background: #fff;
+    width: 1px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.encryption {
+    gap: 16px;
+} 
+
+.profile {
+    display: flex;
+    align-items: center;    
+    gap: 13px;
+}
+.profile .verify,
+.profile  .name-text {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.profile .verify {
+
+    color: #5BB59A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 14.4px */
+}
+
+.stars {
+    margin-bottom: 8px;
+}
+
+.product-stars {
+    gap: 24px;
+    margin: 32px 0
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-img-detail {
+    background: #2c7ef8;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* .profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-template-areas:
+      "header header header"
+      "sidebar main main";
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .main {
+    grid-area: main;
+  } */
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
