@@ -749,7 +749,15 @@ header .owl-carousel .owl-item img {
     .step-number {
         font-size: 14px;
         top: 1px;
-  left: 6px;
+        left: 6px;
+    }
+
+    .product-img-detail img {
+        max-width: 100%;
+    }
+
+    .product-details {
+        flex-basis: 100%;
     }
 
 }
