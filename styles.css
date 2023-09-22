@@ -457,13 +457,14 @@ header .owl-carousel .owl-item img {
     margin: 2px 0;
 }
 
-.stock .text-wrapper{
+.stock .text-wrapper {
     color: #37465A;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
+
 .product-details p {
     color: #4D5254;
     font-size: 16px;
@@ -480,12 +481,11 @@ line-height: normal;
 
 .tick-list p {
     color: #4D5254;
-
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 25.6px */ 
-
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
 }
 
 /* .profile {
@@ -541,6 +541,7 @@ line-height: 160%; /* 25.6px */
 .product-details-p {
     display: none;
 }
+
 .sub-price {
     text-decoration: line-through;
 
@@ -692,6 +693,7 @@ line-height: 160%; /* 25.6px */
     .guarantee-container p {
         font-size: 12px;
     }
+
     .product-name,
     .percentage-container p {
         font-size: 14px;
@@ -700,6 +702,7 @@ line-height: 160%; /* 25.6px */
     .product-details p {
         display: none;
     }
+
     .product-details-p {
         display: block;
         color: #4D5254;
@@ -714,22 +717,41 @@ line-height: 160%; /* 25.6px */
     .product-details {
 
         flex: 1;
-      }
-      .tick-list p,
-      .stock .text-wrapper{
+    }
 
-    font-size: 12px;
+    .tick-list p,
+    .stock .text-wrapper {
+
+        font-size: 12px;
 
     }
+
     .sub-price {
         font-size: 10px;
-    
+
     }
+
     .final-price {
         font-size: 14px;
     }
 
-    
+    .check-mark {
+        left: 4px;
+        top: 1px;
+        width: 12px;
+    }
+
+    .ellipse {
+        width: 20px;
+        height: 20px;
+    }
+
+    .step-number {
+        font-size: 14px;
+        top: 1px;
+  left: 6px;
+    }
+
 }
 
 
