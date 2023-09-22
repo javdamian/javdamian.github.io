@@ -148,6 +148,7 @@ header .owl-carousel .owl-item img {
     margin-bottom: 61px;
     padding: 40px 40px 38px;
     background: #FAFAFA;
+
     .product-img>img {
         width: 100%;
     }
@@ -177,12 +178,7 @@ header .owl-carousel .owl-item img {
     border-radius: 10px;
     background: #EDF3FD;
     padding: 12px 16px;
-}
-
-.percentage-container {
-    border-radius: 10px;
-    background: #EDF3FD;
-    padding: 12px 16px;
+    margin: 32px 0
 }
 
 .tick-circle-container {
@@ -223,7 +219,7 @@ header .owl-carousel .owl-item img {
     border-radius: 4px;
     border: 1px solid;
     border-color: #cfcfcf;
-
+    margin: 12px 0 15px;
 }
 
 .shippping-container span {
@@ -330,7 +326,19 @@ header .owl-carousel .owl-item img {
 .product-img-detail {
     background: #2c7ef8;
     border-radius: 10px;
-    padding: 25px;
+
+}
+
+.blue {
+   color: #2C7EF8;
+}
+
+.description p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize; 
 }
 
 /* .profile {
