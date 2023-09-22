@@ -613,7 +613,7 @@ header .owl-carousel .owl-item img {
         display: none;
     }
 
-    .description.mobile{
+    .description.mobile {
         display: block;
     }
 
@@ -629,8 +629,27 @@ header .owl-carousel .owl-item img {
     .product-description {
         margin-left: 0;
     }
+
     .product-description-container {
         background: none;
+    }
+
+    .shippping-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .payment-icons {
+        text-align: center;
+        justify-content: center;
+        flex-basis: 100%;
+    }
+
+    .shippping-container .line.mobile {
+
+        width: 100%;
+        height: 1px;
+        /* margin: 0 10px; */
     }
 }
 
