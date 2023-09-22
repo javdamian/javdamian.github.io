@@ -194,6 +194,9 @@ header .owl-carousel .owl-item img {
     /* border: none; */
     cursor: pointer;
     border: 1px solid #59AE43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     svg {
         margin-left: 19.76px;
@@ -204,6 +207,7 @@ header .owl-carousel .owl-item img {
     }
 
     transition: background 0.25s ease-in-out;
+    
 }
 
 .btn.btn-primary:hover {
@@ -763,6 +767,14 @@ header .owl-carousel .owl-item img {
     .tick-circle {
         max-width: 16px;
     }
+
+    .btn.btn-primary {
+        padding: 16px 5%;
+        svg {
+          margin-left: 16px;
+          max-width: 12px;
+        }
+      }
 
 }
 
