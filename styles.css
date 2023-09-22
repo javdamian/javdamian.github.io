@@ -625,6 +625,13 @@ header .owl-carousel .owl-item img {
     .btn.btn-primary {
         font-size: 14px;
     }
+
+    .product-description {
+        margin-left: 0;
+    }
+    .product-description-container {
+        background: none;
+    }
 }
 
 /* Estilos para escritorio */
