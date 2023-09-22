@@ -3,10 +3,10 @@
     src: url("public/fonts/Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 body {
-  font-family: "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 /*Header*/
@@ -125,7 +125,7 @@ body {
     padding: 60px 0 40px;
 }
 
-.product-description{
+.product-description {
     margin-left: 25px;
 }
 
@@ -285,18 +285,19 @@ header .owl-carousel .owl-item img {
 
 .encryption {
     gap: 16px;
-} 
+}
 
 .profile {
     display: flex;
-    align-items: center;    
+    align-items: center;
     gap: 13px;
 }
+
 .profile .verify,
-.profile  .name-text {
+.profile .name-text {
     display: flex;
-    align-items: center; 
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
 }
 
 .profile .verify {
@@ -305,22 +306,23 @@ header .owl-carousel .owl-item img {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 14.4px */
+    line-height: 120%;
+    /* 14.4px */
 }
 
 .stars {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 .product-stars {
     gap: 24px;
-    margin: 32px 0
+    margin: 32px 0 12px
 }
 
 .product-details {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .product-img-detail {
@@ -330,7 +332,7 @@ header .owl-carousel .owl-item img {
 }
 
 .blue {
-   color: #2C7EF8;
+    color: #2C7EF8;
 }
 
 .description p {
@@ -338,7 +340,67 @@ header .owl-carousel .owl-item img {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+}
+
+.sub-price {
+    color: #969696;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    text-transform: capitalize;
+}
+
+.final-price {
+    color: #2C7EF8;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 30.8px */
+    text-transform: capitalize;
+}
+
+.prices {
+    gap: 10px;
+}
+
+.product-prices {
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.product-name {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+    text-transform: capitalize;
+}
+
+.stock {
+    gap: 16px;
+    margin: 2px 0;
+}
+
+.product-details p {
+    color: #4D5254;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 9px;
+}
+
+.tick-list p {
+    margin: 8px 0;
 }
 
 /* .profile {
