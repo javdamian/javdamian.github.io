@@ -478,6 +478,16 @@ line-height: normal;
     margin: 8px 0;
 }
 
+.tick-list p {
+    color: #4D5254;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */ 
+
+}
+
 /* .profile {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -705,7 +715,7 @@ line-height: normal;
 
         flex: 1;
       }
-
+      .tick-list p,
       .stock .text-wrapper{
 
     font-size: 12px;
@@ -718,6 +728,8 @@ line-height: normal;
     .final-price {
         font-size: 14px;
     }
+
+    
 }
 
 
