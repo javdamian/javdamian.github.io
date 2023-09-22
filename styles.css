@@ -325,6 +325,14 @@ header .owl-carousel .owl-item img {
     margin: 0 10px;
 }
 
+.shippping-container .line {
+    background: #CFCFCF;
+    ;
+    width: 1px;
+    height: 16px;
+    /* margin: 0 10px; */
+}
+
 .encryption {
     gap: 16px;
 }
@@ -493,7 +501,17 @@ header .owl-carousel .owl-item img {
 
 .stars-details {
     margin-bottom: 8px;
+}
 
+
+.steps-container-mobile .step {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.steps-container-mobile {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Estilos para dispositivos móviles */
@@ -509,47 +527,113 @@ header .owl-carousel .owl-item img {
         display: none;
     }
 
-    .logo img{
+    .logo img {
         max-width: 106.7px;
     }
 
-    .header-bottom-section.logos img{
+    .header-bottom-section.logos img {
         max-width: 44px;
     }
 
     .product-description-container {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        display: block;
     }
 
     .label-title {
         text-align: center;
-    
+
         p {
             color: #4d5254;
             /* font-family: "Manrope-Regular", Helvetica; */
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             letter-spacing: 0;
-            line-height: 24px;
+            line-height: 140%;
             /* white-space: nowrap; */
-    
+
         }
-    
+
         h1 {
             text-align: center;
             font-size: 32px;
             font-style: normal;
             font-weight: 400;
-            line-height: 140%; /* 44.8px */
+            line-height: 140%;
+            /* 44.8px */
             text-transform: capitalize;
         }
     }
-    
 
+    .steps-container {
+        display: none;
+    }
+
+
+
+    .step-text {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+        text-transform: capitalize;
+    }
+
+    .header-bottom {
+        padding: 20px;
+    }
+
+    .site-content {
+        padding: 0 20px;
+    }
+
+    .product-description-container {
+        padding: 0
+    }
+
+    .footer .text-wrapper {
+        font-size: 12px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .footer .line {
+
+        height: 14px;
+
+    }
+
+    .description {
+        display: none;
+    }
+
+    .description.mobile{
+        display: block;
+    }
+
+    .description.mobile p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .btn.btn-primary {
+        font-size: 14px;
+    }
 }
 
 /* Estilos para escritorio */
 @media (min-width: 768px) {
+
+    .description.mobile,
+    .steps-container-mobile {
+        display: none;
+    }
 
     /* Ocultar el slider en escritorio */
     #header-slider {
