@@ -10,6 +10,20 @@ body {
 }
 
 /*Header*/
+
+#header-slider {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.header-slider .header-top-section {}
+
+.header-slider.header-top {
+    padding: 10px 20px;
+
+}
+
 .header-top {
     background: #252F3D;
     padding: 20px;
@@ -48,7 +62,7 @@ body {
 }
 
 .header-bottom {
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .header-bottom-section {
@@ -176,12 +190,29 @@ header .owl-carousel .owl-item img {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    border: none;
+    /* border: none; */
     cursor: pointer;
+    border: 1px solid #59AE43;
 
     svg {
         margin-left: 19.76px;
     }
+
+    svg path {
+        fill: #fff;
+    }
+
+    transition: background 0.25s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+    background: #FFF;
+    color: #59AE43;
+
+    svg path {
+        fill: #59AE43;
+    }
+
 }
 
 .percentage-container {
@@ -454,6 +485,9 @@ header .owl-carousel .owl-item img {
   .main {
     grid-area: main;
   } */
+.product-review {
+    display: none;
+}
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 767px) {
@@ -467,6 +501,19 @@ header .owl-carousel .owl-item img {
     #header-top {
         display: none;
     }
+
+    .logo img{
+        max-width: 106.7px;
+    }
+
+    .header-bottom-section.logos img{
+        max-width: 44px;
+    }
+
+    .product-description-container {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* Estilos para escritorio */
@@ -480,5 +527,9 @@ header .owl-carousel .owl-item img {
     /* Estilos para el contenedor #header-top en escritorio */
     #header-top {
         /* Agrega aquí tus estilos específicos para el contenedor en escritorio */
+    }
+
+    .product-review {
+        display: block;
     }
 }
