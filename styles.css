@@ -108,6 +108,7 @@ body {
     /* display: flex; */
     max-width: 1245px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .check-mark {
@@ -310,6 +311,7 @@ header .owl-carousel .owl-item img {
 
 .footer {
     background-color: #252f3d;
+    padding: 0 30px;
 }
 
 .footer .text-wrapper {
@@ -536,6 +538,8 @@ header .owl-carousel .owl-item img {
 .steps-container-mobile {
     display: flex;
     justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .percentage-container p {
@@ -786,6 +790,10 @@ header .owl-carousel .owl-item img {
     
     .product-img {
         margin-bottom: 14px;
+    }
+
+    .footer {
+        padding: 0 20px;
     }
 
 }
