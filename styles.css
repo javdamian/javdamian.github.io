@@ -62,7 +62,7 @@ body {
 }
 
 .header-bottom {
-    padding: 30px 30px 10px;
+    padding: 30px 30px 8px;
 }
 
 .header-bottom-section {
@@ -372,8 +372,8 @@ header .owl-carousel .owl-item img {
     line-height: 110%;
     /* 22px */
     text-transform: capitalize;
-    top: 10px;
-    left: 15px;
+    top: 8px;
+    left: 14px;
 }
 
 .profile .verify {
@@ -387,7 +387,7 @@ header .owl-carousel .owl-item img {
 }
 
 .stars {
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
 .product-stars {
