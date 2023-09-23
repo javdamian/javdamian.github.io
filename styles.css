@@ -592,7 +592,7 @@ header .owl-carousel .owl-item img {
             letter-spacing: 0;
             line-height: 140%;
             /* white-space: nowrap; */
-
+            margin-bottom: 24px;
         }
 
         h1 {
@@ -661,6 +661,7 @@ header .owl-carousel .owl-item img {
     .description.mobile p {
         font-size: 24px;
         text-align: center;
+        margin: 24px 0;
     }
 
     .btn.btn-primary {
