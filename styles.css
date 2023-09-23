@@ -293,6 +293,9 @@ header .owl-carousel .owl-item img {
     align-items: center;
 }
 
+..payment-icons {
+    gap: 2px;
+}
 .guarantee-container {
     gap: 16px;
 }
@@ -780,6 +783,10 @@ header .owl-carousel .owl-item img {
           max-width: 12px;
         }
       }
+    
+    .product-img {
+        margin-bottom: 14px;
+    }
 
 }
 
